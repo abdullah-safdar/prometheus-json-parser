@@ -1,0 +1,4777 @@
+{
+  "data": [
+    {
+      "name": "substrate_sub_libp2p_out_events_num_channels",
+      "help": "Number of internal active channels that broadcast network events",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "name": "phron-network"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "name": "transactions-handler-net"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_requests_out_failure_total",
+      "help": "Total number of requests that have failed",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/sync/2",
+            "reason": "connection-closed"
+          },
+          "value": "220"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_calls_time",
+      "help": "Total time [μs] of processed RPC calls",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "author_pendingExtrinsics",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "2",
+            "100": "2",
+            "500": "2",
+            "1000": "2",
+            "2500": "2",
+            "10000": "2",
+            "25000": "2",
+            "100000": "2",
+            "+Inf": "2",
+            "1e+06": "2",
+            "1e+07": "2"
+          },
+          "count": "2",
+          "sum": "28"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getBlock",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "0",
+            "500": "1",
+            "1000": "1",
+            "2500": "1",
+            "10000": "1",
+            "25000": "1",
+            "100000": "1",
+            "+Inf": "1",
+            "1e+06": "1",
+            "1e+07": "1"
+          },
+          "count": "1",
+          "sum": "136"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getBlockHash",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "1",
+            "500": "4",
+            "1000": "4",
+            "2500": "4",
+            "10000": "4",
+            "25000": "4",
+            "100000": "4",
+            "+Inf": "4",
+            "1e+06": "4",
+            "1e+07": "4"
+          },
+          "count": "4",
+          "sum": "560"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getHeader",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "7",
+            "100": "9592",
+            "500": "10591",
+            "1000": "10596",
+            "2500": "10597",
+            "10000": "10597",
+            "25000": "10597",
+            "100000": "10597",
+            "+Inf": "10597",
+            "1e+06": "10597",
+            "1e+07": "10597"
+          },
+          "count": "10597",
+          "sum": "866863"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_subscribeNewHead",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "4",
+            "500": "7",
+            "1000": "7",
+            "2500": "7",
+            "10000": "7",
+            "25000": "7",
+            "100000": "7",
+            "+Inf": "7",
+            "1e+06": "7",
+            "1e+07": "7"
+          },
+          "count": "7",
+          "sum": "1091"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "rpc_methods",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "3",
+            "500": "3",
+            "1000": "3",
+            "2500": "3",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "136"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getKeysPaged",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "0",
+            "500": "477",
+            "1000": "492",
+            "2500": "492",
+            "10000": "492",
+            "25000": "492",
+            "100000": "492",
+            "+Inf": "492",
+            "1e+06": "492",
+            "1e+07": "492"
+          },
+          "count": "492",
+          "sum": "136582"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getMetadata",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "0",
+            "500": "0",
+            "1000": "0",
+            "2500": "0",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "7880"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getRuntimeVersion",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "3",
+            "100": "8667",
+            "500": "10264",
+            "1000": "10264",
+            "2500": "10264",
+            "10000": "10264",
+            "25000": "10264",
+            "100000": "10264",
+            "+Inf": "10264",
+            "1e+06": "10264",
+            "1e+07": "10264"
+          },
+          "count": "10264",
+          "sum": "934731"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getStorage",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "8797",
+            "500": "9494",
+            "1000": "9494",
+            "2500": "9494",
+            "10000": "9494",
+            "25000": "9494",
+            "100000": "9494",
+            "+Inf": "9494",
+            "1e+06": "9494",
+            "1e+07": "9494"
+          },
+          "count": "9494",
+          "sum": "760334"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_subscribeRuntimeVersion",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "0",
+            "500": "7",
+            "1000": "7",
+            "2500": "7",
+            "10000": "7",
+            "25000": "7",
+            "100000": "7",
+            "+Inf": "7",
+            "1e+06": "7",
+            "1e+07": "7"
+          },
+          "count": "7",
+          "sum": "1018"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_subscribeStorage",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "13",
+            "500": "177",
+            "1000": "240",
+            "2500": "431",
+            "10000": "435",
+            "25000": "435",
+            "100000": "435",
+            "+Inf": "435",
+            "1e+06": "435",
+            "1e+07": "435"
+          },
+          "count": "435",
+          "sum": "476374"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_unsubscribeStorage",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "31",
+            "25": "213",
+            "100": "285",
+            "500": "285",
+            "1000": "285",
+            "2500": "285",
+            "10000": "285",
+            "25000": "285",
+            "100000": "285",
+            "+Inf": "285",
+            "1e+06": "285",
+            "1e+07": "285"
+          },
+          "count": "285",
+          "sum": "5166"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_chain",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "5",
+            "100": "6",
+            "500": "6",
+            "1000": "6",
+            "2500": "6",
+            "10000": "6",
+            "25000": "6",
+            "100000": "6",
+            "+Inf": "6",
+            "1e+06": "6",
+            "1e+07": "6"
+          },
+          "count": "6",
+          "sum": "108"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_chainType",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "2",
+            "25": "3",
+            "100": "3",
+            "500": "3",
+            "1000": "3",
+            "2500": "3",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "20"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_health",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "185",
+            "500": "206",
+            "1000": "206",
+            "2500": "206",
+            "10000": "206",
+            "25000": "206",
+            "100000": "206",
+            "+Inf": "206",
+            "1e+06": "206",
+            "1e+07": "206"
+          },
+          "count": "206",
+          "sum": "16514"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_name",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "2",
+            "25": "3",
+            "100": "3",
+            "500": "3",
+            "1000": "3",
+            "2500": "3",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "20"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_peers",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "0",
+            "500": "2",
+            "1000": "2",
+            "2500": "2",
+            "10000": "2",
+            "25000": "2",
+            "100000": "2",
+            "+Inf": "2",
+            "1e+06": "2",
+            "1e+07": "2"
+          },
+          "count": "2",
+          "sum": "275"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_properties",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "3",
+            "100": "3",
+            "500": "3",
+            "1000": "3",
+            "2500": "3",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "29"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_syncState",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "0",
+            "25": "0",
+            "100": "1",
+            "500": "1",
+            "1000": "1",
+            "2500": "1",
+            "10000": "1",
+            "25000": "1",
+            "100000": "1",
+            "+Inf": "1",
+            "1e+06": "1",
+            "1e+07": "1"
+          },
+          "count": "1",
+          "sum": "85"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_version",
+            "protocol": "ws"
+          },
+          "buckets": {
+            "5": "3",
+            "25": "3",
+            "100": "3",
+            "500": "3",
+            "1000": "3",
+            "2500": "3",
+            "10000": "3",
+            "25000": "3",
+            "100000": "3",
+            "+Inf": "3",
+            "1e+06": "3",
+            "1e+07": "3"
+          },
+          "count": "3",
+          "sum": "12"
+        }
+      ]
+    },
+    {
+      "name": "substrate_state_cache_bytes",
+      "help": "State cache size in bytes",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "4.5007501e+07"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_kademlia_records_sizes_total",
+      "help": "Total size of all the records in the Kademlia records store",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_requests_in_failure_total",
+      "help": "Total number of incoming requests that the node has failed to answer",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/sync/2",
+            "reason": "busy-omitted"
+          },
+          "value": "38680"
+        }
+      ]
+    },
+    {
+      "name": "aleph_timing_imported",
+      "help": "no help",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "100": "5187622",
+            "150": "5187622",
+            "225": "5187622",
+            "+Inf": "5187622",
+            "1139.0625": "5187622",
+            "19.753086419753085": "5186763",
+            "29.629629629629626": "5187622",
+            "337.5": "5187622",
+            "44.44444444444444": "5187622",
+            "506.25": "5187622",
+            "66.66666666666666": "5187622",
+            "759.375": "5187622"
+          },
+          "count": "5187622",
+          "sum": "1.705433608828018e+07"
+        }
+      ]
+    },
+    {
+      "name": "substrate_proposer_create_inherents_time",
+      "help": "Histogram of time taken to execute create inherents",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1": "307401",
+            "5": "307401",
+            "10": "307401",
+            "+Inf": "307401",
+            "0.005": "307401",
+            "0.01": "307401",
+            "0.025": "307401",
+            "0.05": "307401",
+            "0.1": "307401",
+            "0.25": "307401",
+            "0.5": "307401",
+            "2.5": "307401"
+          },
+          "count": "307401",
+          "sum": "22.92772118600012"
+        }
+      ]
+    },
+    {
+      "name": "substrate_proposer_block_proposal_time",
+      "help": "Histogram of time taken to construct a block and prepare it for proposal",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1": "307401",
+            "5": "307401",
+            "10": "307401",
+            "+Inf": "307401",
+            "0.005": "303916",
+            "0.01": "307383",
+            "0.025": "307401",
+            "0.05": "307401",
+            "0.1": "307401",
+            "0.25": "307401",
+            "0.5": "307401",
+            "2.5": "307401"
+          },
+          "count": "307401",
+          "sum": "546.0479318880018"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_peerset_num_discovered",
+      "help": "Number of nodes stored in the peerset manager",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "name": "substrate_unbounded_channel_len",
+      "help": "Items in each mpsc::unbounded instance",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_api_protocol"
+          },
+          "value": "282005"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_buffered_link"
+          },
+          "value": "1.2836958e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_chain_sync"
+          },
+          "value": "3.047485e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_every_import_notification_stream"
+          },
+          "value": "5.187622e+06"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_finality_notification_stream"
+          },
+          "value": "2.07501e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_import_notification_stream"
+          },
+          "value": "3.1147894e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_import_queue_worker_blocks"
+          },
+          "value": "1.2836958e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_network_service_provider"
+          },
+          "value": "1.1276712e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_network_worker"
+          },
+          "value": "1.3351656e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_notifications_protocol"
+          },
+          "value": "1.725788e+06"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_protocol_controllers_to_notifications"
+          },
+          "value": "1.810415e+06"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_revalidation_queue"
+          },
+          "value": "5.187608e+06"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_storage_notification_items"
+          },
+          "value": "24229"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_syncing_engine_protocol"
+          },
+          "value": "3.7108494e+07"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_system_rpc"
+          },
+          "value": "209"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "mpsc_telemetry_register"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "phron-syncing-network"
+          },
+          "value": "56572"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "transactions-handler-sync"
+          },
+          "value": "56573"
+        },
+        {
+          "labels": {
+            "action": "received",
+            "chain": "phron01",
+            "entity": "unpin-worker-channel"
+          },
+          "value": "1.0375147e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_api_protocol"
+          },
+          "value": "282005"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_buffered_link"
+          },
+          "value": "1.2836958e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_chain_sync"
+          },
+          "value": "3.047485e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_every_import_notification_stream"
+          },
+          "value": "5.187622e+06"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_finality_notification_stream"
+          },
+          "value": "2.07501e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_import_notification_stream"
+          },
+          "value": "3.1147894e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_import_queue_worker_blocks"
+          },
+          "value": "1.2836958e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_network_service_provider"
+          },
+          "value": "1.1276712e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_network_worker"
+          },
+          "value": "1.3351656e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_notifications_protocol"
+          },
+          "value": "1.725788e+06"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_protocol_controllers_to_notifications"
+          },
+          "value": "1.810415e+06"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_revalidation_queue"
+          },
+          "value": "5.187608e+06"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_storage_notification_items"
+          },
+          "value": "24229"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_syncing_engine_protocol"
+          },
+          "value": "3.7108494e+07"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_system_rpc"
+          },
+          "value": "209"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "mpsc_telemetry_register"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "phron-syncing-network"
+          },
+          "value": "56572"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "transactions-handler-sync"
+          },
+          "value": "56573"
+        },
+        {
+          "labels": {
+            "action": "send",
+            "chain": "phron01",
+            "entity": "unpin-worker-channel"
+          },
+          "value": "1.0375147e+07"
+        }
+      ]
+    },
+    {
+      "name": "substrate_justification_import_time",
+      "help": "Time taken to import justifications",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1": "0",
+            "5": "0",
+            "10": "0",
+            "+Inf": "0",
+            "0.005": "0",
+            "0.01": "0",
+            "0.025": "0",
+            "0.05": "0",
+            "0.1": "0",
+            "0.25": "0",
+            "0.5": "0",
+            "2.5": "0"
+          },
+          "count": "0",
+          "sum": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_node_roles",
+      "help": "The roles the node is running as",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_requests_in_success_total",
+      "help": "For successful incoming requests, time between receiving the request and starting to send the response",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/sync/2"
+          },
+          "buckets": {
+            "+Inf": "15208799",
+            "0.001": "15204273",
+            "0.002": "15205000",
+            "0.004": "15208792",
+            "0.008": "15208799",
+            "0.016": "15208799",
+            "0.032": "15208799",
+            "0.064": "15208799",
+            "0.128": "15208799",
+            "0.256": "15208799",
+            "0.512": "15208799",
+            "1.024": "15208799",
+            "16.384": "15208799",
+            "2.048": "15208799",
+            "32.768": "15208799",
+            "4.096": "15208799",
+            "8.192": "15208799"
+          },
+          "count": "15208799",
+          "sum": "1452.183362607086"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_block_transactions_pruned",
+      "help": "Total number of transactions that was requested to be pruned by block events",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "5.187622e+06"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_import_queue_blocks_submitted",
+      "help": "Number of blocks submitted to the import queue.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "6.088665e+06"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tasks_spawned_total",
+      "help": "Total number of tasks that have been spawned on the Service",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "EthBlockDataCacheTask"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/connection_manager"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/gossip_network"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/sync"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/updater"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/validator_network"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "import-queue"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "informant"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/clique_network_incoming"
+          },
+          "value": "155"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/authentication_peer_sender"
+          },
+          "value": "36"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/sync_peer_sender"
+          },
+          "value": "35"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "prometheus-endpoint"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry-periodic-send"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry_hwbench"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "unpin-worker"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-fee-history"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-filter-pool"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-mapping-sync"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "block-request-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "libp2p-node"
+          },
+          "value": "7.19193719e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "light-client-request-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "network-transactions-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "peer-store"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "state-request-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "system-rpc-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "rpc",
+            "task_name": "substrate-rpc-subscription"
+          },
+          "value": "449"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "on-transaction-imported"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-background"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-notifications"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "block-import",
+            "task_name": "basic-block-import-worker"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "aura"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "basic-authorship-proposer"
+          },
+          "value": "307401"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "phron-finality"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "syncing"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "chain-sync-network-service-provider"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "network-worker"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-0"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-1"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_is_major_syncing",
+      "help": "Whether the node is performing a major sync or not.",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_listeners_errors_total",
+      "help": "Total number of non-fatal errors reported by a listener",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_block_verification_time",
+      "help": "Time taken to verify blocks",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "result": "success"
+          },
+          "buckets": {
+            "1": "5187622",
+            "5": "5187622",
+            "10": "5187622",
+            "+Inf": "5187622",
+            "0.005": "5136218",
+            "0.01": "5152053",
+            "0.025": "5187622",
+            "0.05": "5187622",
+            "0.1": "5187622",
+            "0.25": "5187622",
+            "0.5": "5187622",
+            "2.5": "5187622"
+          },
+          "count": "5187622",
+          "sum": "2817.879111489753"
+        }
+      ]
+    },
+    {
+      "name": "substrate_issued_light_requests",
+      "help": "Number of light client requests that our node has issued.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_calls_finished",
+      "help": "Number of processed RPC calls (unique un-batched requests)",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "author_pendingExtrinsics",
+            "protocol": "ws"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "chain_getBlock",
+            "protocol": "ws"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "chain_getBlockHash",
+            "protocol": "ws"
+          },
+          "value": "4"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "chain_getHeader",
+            "protocol": "ws"
+          },
+          "value": "10597"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "chain_subscribeNewHead",
+            "protocol": "ws"
+          },
+          "value": "7"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "rpc_methods",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_getKeysPaged",
+            "protocol": "ws"
+          },
+          "value": "492"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_getMetadata",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_getRuntimeVersion",
+            "protocol": "ws"
+          },
+          "value": "10264"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_getStorage",
+            "protocol": "ws"
+          },
+          "value": "9494"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_subscribeRuntimeVersion",
+            "protocol": "ws"
+          },
+          "value": "7"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_subscribeStorage",
+            "protocol": "ws"
+          },
+          "value": "435"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "state_unsubscribeStorage",
+            "protocol": "ws"
+          },
+          "value": "285"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_chain",
+            "protocol": "ws"
+          },
+          "value": "6"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_chainType",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_health",
+            "protocol": "ws"
+          },
+          "value": "206"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_name",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_peers",
+            "protocol": "ws"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_properties",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_syncState",
+            "protocol": "ws"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "is_error": "false",
+            "method": "system_version",
+            "protocol": "ws"
+          },
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_calls_started",
+      "help": "Number of received RPC calls (unique un-batched requests)",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "author_pendingExtrinsics",
+            "protocol": "ws"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getBlock",
+            "protocol": "ws"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getBlockHash",
+            "protocol": "ws"
+          },
+          "value": "4"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_getHeader",
+            "protocol": "ws"
+          },
+          "value": "10597"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "chain_subscribeNewHead",
+            "protocol": "ws"
+          },
+          "value": "7"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "rpc_methods",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getKeysPaged",
+            "protocol": "ws"
+          },
+          "value": "492"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getMetadata",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getRuntimeVersion",
+            "protocol": "ws"
+          },
+          "value": "10264"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_getStorage",
+            "protocol": "ws"
+          },
+          "value": "9494"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_subscribeRuntimeVersion",
+            "protocol": "ws"
+          },
+          "value": "7"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_subscribeStorage",
+            "protocol": "ws"
+          },
+          "value": "435"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "state_unsubscribeStorage",
+            "protocol": "ws"
+          },
+          "value": "285"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_chain",
+            "protocol": "ws"
+          },
+          "value": "6"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_chainType",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_health",
+            "protocol": "ws"
+          },
+          "value": "206"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_name",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_peers",
+            "protocol": "ws"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_properties",
+            "protocol": "ws"
+          },
+          "value": "3"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_syncState",
+            "protocol": "ws"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "method": "system_version",
+            "protocol": "ws"
+          },
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_incoming_connections_handshake_errors_total",
+      "help": "Total number of incoming connections that have failed during the initial handshake",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "limit-reached"
+          },
+          "value": "4.4214683e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "transport-error"
+          },
+          "value": "2.38991652e+08"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_notifications_streams_opened_total",
+      "help": "Total number of notification substreams that have been opened",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "value": "37"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "value": "37"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1"
+          },
+          "value": "26622"
+        }
+      ]
+    },
+    {
+      "name": "aleph_timing_imported_to_finalized",
+      "help": "no help",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "2000": "0",
+            "3000": "0",
+            "4500": "0",
+            "6750": "0",
+            "10125": "0",
+            "+Inf": "0",
+            "1333.3333333333335": "0",
+            "15187.5": "0",
+            "22781.25": "0",
+            "395.0617283950617": "0",
+            "592.5925925925926": "0",
+            "888.8888888888889": "0"
+          },
+          "count": "0",
+          "sum": "0"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_statuses_cache_hits",
+      "help": "Hits of eth statuses_cache cache.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_propagated_transactions",
+      "help": "Number of transactions propagated to at least one peer",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_queued_blocks",
+      "help": "Number of blocks in import queue",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_fork_targets",
+      "help": "Number of fork sync targets",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_import_queue_justifications_submitted",
+      "help": "Number of justifications submitted to the import queue.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_block_transactions_resubmitted",
+      "help": "Total number of transactions that was requested to be resubmitted by block events",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_submitted_transactions",
+      "help": "Total number of transactions submitted",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_extra_justifications",
+      "help": "Number of extra justifications requests",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "active"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "failed"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "importing"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "pending"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tasks_ended_total",
+      "help": "Total number of tasks for which Future::poll has returned Ready(()) or panicked",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "EthBlockDataCacheTask"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aleph/connection_manager"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aleph/gossip_network"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aleph/sync"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aleph/updater"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aleph/validator_network"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "import-queue"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "informant"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "phron/clique_network_incoming"
+          },
+          "value": "155"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "phron/network/authentication_peer_sender"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "phron/network/sync_peer_sender"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "prometheus-endpoint"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "telemetry"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "telemetry-periodic-send"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "telemetry_hwbench"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "unpin-worker"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "frontier",
+            "task_name": "frontier-fee-history"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "frontier",
+            "task_name": "frontier-filter-pool"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "frontier",
+            "task_name": "frontier-mapping-sync"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "block-request-handler"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "libp2p-node"
+          },
+          "value": "7.19193697e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "light-client-request-handler"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "network-transactions-handler"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "peer-store"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "state-request-handler"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "system-rpc-handler"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "rpc",
+            "task_name": "substrate-rpc-subscription"
+          },
+          "value": "449"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "transaction-pool",
+            "task_name": "on-transaction-imported"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-background"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "reason": "finished",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-notifications"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "block-import",
+            "task_name": "basic-block-import-worker"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "aura"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "basic-authorship-proposer"
+          },
+          "value": "307401"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "phron-finality"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "default",
+            "task_name": "syncing"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "chain-sync-network-service-provider"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "networking",
+            "task_name": "network-worker"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-0"
+          },
+          "value": "0"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "reason": "finished",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-1"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_statuses_cache_size",
+      "help": "Size of eth statuses_cache data cache.",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_notifications_streams_closed_total",
+      "help": "Total number of notification substreams that have been closed",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1"
+          },
+          "value": "26609"
+        }
+      ]
+    },
+    {
+      "name": "substrate_proposer_end_proposal_reason",
+      "help": "The reason why the block proposing was ended. This doesn't include errors.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "no_more_transactions"
+          },
+          "value": "307401"
+        }
+      ]
+    },
+    {
+      "name": "substrate_build_info",
+      "help": "A metric with a constant '1' value labeled by name, version",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "name": "node-18",
+            "version": "1.0.0-d68c264738f"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_process_start_time_seconds",
+      "help": "Number of seconds between the UNIX epoch and the moment the process started",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "1.703936447e+09"
+        }
+      ]
+    },
+    {
+      "name": "substrate_proposer_block_constructed",
+      "help": "Histogram of time taken to construct new block",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1": "307401",
+            "5": "307401",
+            "10": "307401",
+            "+Inf": "307401",
+            "0.005": "307398",
+            "0.01": "307401",
+            "0.025": "307401",
+            "0.05": "307401",
+            "0.1": "307401",
+            "0.25": "307401",
+            "0.5": "307401",
+            "2.5": "307401"
+          },
+          "count": "307401",
+          "sum": "327.1561144700097"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_distinct_peers_connections_closed_total",
+      "help": "Total number of connections closed with distinct peers",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "34"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_kademlia_random_queries_total",
+      "help": "Number of random Kademlia queries started",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "86466"
+        }
+      ]
+    },
+    {
+      "name": "aleph_timing_proposed",
+      "help": "no help",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1000": "0",
+            "1500": "0",
+            "2250": "0",
+            "3375": "0",
+            "+Inf": "0",
+            "11390.625": "0",
+            "197.53086419753086": "0",
+            "296.2962962962963": "0",
+            "444.44444444444446": "0",
+            "5062.5": "0",
+            "666.6666666666667": "0",
+            "7593.75": "0"
+          },
+          "count": "0",
+          "sum": "0"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_statuses_cache_miss",
+      "help": "Misses of eth statuses_cache cache.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_connections_closed_total",
+      "help": "Total number of connections closed, by direction and reason",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in",
+            "reason": "keep-alive-timeout"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in",
+            "reason": "transport-error"
+          },
+          "value": "1.94774689e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "out",
+            "reason": "transport-error"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_distinct_peers_connections_opened_total",
+      "help": "Total number of connections opened with distinct peers",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "52"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_notifications_sizes",
+      "help": "Sizes of the notifications send to and received from all nodes",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "buckets": {
+            "64": "0",
+            "256": "159899069",
+            "1024": "159899069",
+            "4096": "159899069",
+            "16384": "159899069",
+            "65536": "159899069",
+            "262144": "159899069",
+            "+Inf": "159899069",
+            "1.048576e+06": "159899069"
+          },
+          "count": "159899069",
+          "sum": "3.0860520317e+10"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "buckets": {
+            "64": "0",
+            "256": "33198",
+            "1024": "299539524",
+            "4096": "308361697",
+            "16384": "308584521",
+            "65536": "308584521",
+            "262144": "308584521",
+            "+Inf": "308584521",
+            "1.048576e+06": "308584521"
+          },
+          "count": "308584521",
+          "sum": "2.11572743907e+11"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "out",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "buckets": {
+            "64": "0",
+            "256": "140148944",
+            "1024": "140148944",
+            "4096": "140148944",
+            "16384": "140148944",
+            "65536": "140148944",
+            "262144": "140148944",
+            "+Inf": "140148944",
+            "1.048576e+06": "140148944"
+          },
+          "count": "140148944",
+          "sum": "2.7048746192e+10"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "out",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "buckets": {
+            "64": "0",
+            "256": "42742",
+            "1024": "263573094",
+            "4096": "271802064",
+            "16384": "271908712",
+            "65536": "271926298",
+            "262144": "271926298",
+            "+Inf": "271926298",
+            "1.048576e+06": "271926298"
+          },
+          "count": "271926298",
+          "sum": "1.86746331616e+11"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_out_events_events_total",
+      "help": "Number of broadcast network events that have been sent or received across all channels",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-\"/0x4dcc…ce71/auth/0\"",
+            "name": "phron-network"
+          },
+          "value": "1.59899069e+08"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-\"/0x4dcc…ce71/auth/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "1.59899069e+08"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-\"/0x4dcc…ce71/sync/0\"",
+            "name": "phron-network"
+          },
+          "value": "3.08584521e+08"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-\"/0x4dcc…ce71/sync/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "3.08584521e+08"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/0x4dcc…ce71/auth/0\"",
+            "name": "phron-network"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/0x4dcc…ce71/auth/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/0x4dcc…ce71/sync/0\"",
+            "name": "phron-network"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/0x4dcc…ce71/sync/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "19"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1\"",
+            "name": "phron-network"
+          },
+          "value": "26609"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-closed-\"/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "26609"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/0x4dcc…ce71/auth/0\"",
+            "name": "phron-network"
+          },
+          "value": "36"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/0x4dcc…ce71/auth/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "37"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/0x4dcc…ce71/sync/0\"",
+            "name": "phron-network"
+          },
+          "value": "35"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/0x4dcc…ce71/sync/0\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "37"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1\"",
+            "name": "phron-network"
+          },
+          "value": "26621"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "event_name": "notif-open-\"/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/transactions/1\"",
+            "name": "transactions-handler-net"
+          },
+          "value": "26622"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_pending_connections",
+      "help": "Number of connections in the process of being established",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_requests_out_success_total",
+      "help": "For successful outgoing requests, time between a request's start and finish",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "/4dcc44eede19d98d176a758eed7e97f475a2c537ee014eb7fdfe7a8311afce71/sync/2"
+          },
+          "buckets": {
+            "+Inf": "6088665",
+            "0.001": "1015708",
+            "0.002": "5805914",
+            "0.004": "6044217",
+            "0.008": "6086746",
+            "0.016": "6088593",
+            "0.032": "6088665",
+            "0.064": "6088665",
+            "0.128": "6088665",
+            "0.256": "6088665",
+            "0.512": "6088665",
+            "1.024": "6088665",
+            "16.384": "6088665",
+            "2.048": "6088665",
+            "32.768": "6088665",
+            "4.096": "6088665",
+            "8.192": "6088665"
+          },
+          "count": "6088665",
+          "sum": "7476.08823264432"
+        }
+      ]
+    },
+    {
+      "name": "substrate_database_cache_bytes",
+      "help": "RocksDB cache size in bytes",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_requests_finished",
+      "help": "Number of RPC requests (not calls) processed by the server.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "ws"
+          },
+          "value": "31821"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_validations_invalid",
+      "help": "Total number of transactions that were removed from the pool as invalid",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sync_peers",
+      "help": "Number of peers we sync with",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_requests_started",
+      "help": "Number of RPC requests (not calls) received by the server.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "http"
+          },
+          "value": "72"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "protocol": "ws"
+          },
+          "value": "31821"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_sessions_opened",
+      "help": "Number of persistent RPC sessions opened",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_pending_connections_errors_total",
+      "help": "Total number of pending connection errors",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "invalid-peer-id"
+          },
+          "value": "694580"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "limit-reached"
+          },
+          "value": "7881"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "reason": "transport-error"
+          },
+          "value": "818355"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tasks_polling_duration",
+      "help": "Duration in seconds of each invocation of Future::poll",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "EthBlockDataCacheTask"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "1.543e-05"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/connection_manager"
+          },
+          "buckets": {
+            "+Inf": "28281586",
+            "0.001": "20648327",
+            "0.004": "23911754",
+            "0.016": "28266981",
+            "0.064": "28281584",
+            "0.256": "28281586",
+            "1.024": "28281586",
+            "16.384": "28281586",
+            "4.096": "28281586",
+            "65.536": "28281586"
+          },
+          "count": "28281586",
+          "sum": "47129.567270464664"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/gossip_network"
+          },
+          "buckets": {
+            "+Inf": "302707166",
+            "0.001": "302706762",
+            "0.004": "302707162",
+            "0.016": "302707166",
+            "0.064": "302707166",
+            "0.256": "302707166",
+            "1.024": "302707166",
+            "16.384": "302707166",
+            "4.096": "302707166",
+            "65.536": "302707166"
+          },
+          "count": "302707166",
+          "sum": "4434.336302839698"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/sync"
+          },
+          "buckets": {
+            "+Inf": "99839625",
+            "0.001": "24249812",
+            "0.004": "93426349",
+            "0.016": "98544807",
+            "0.064": "99839177",
+            "0.256": "99839625",
+            "1.024": "99839625",
+            "16.384": "99839625",
+            "4.096": "99839625",
+            "65.536": "99839625"
+          },
+          "count": "99839625",
+          "sum": "196372.89440145032"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/updater"
+          },
+          "buckets": {
+            "+Inf": "4736311",
+            "0.001": "4736302",
+            "0.004": "4736311",
+            "0.016": "4736311",
+            "0.064": "4736311",
+            "0.256": "4736311",
+            "1.024": "4736311",
+            "16.384": "4736311",
+            "4.096": "4736311",
+            "65.536": "4736311"
+          },
+          "count": "4736311",
+          "sum": "58.87547554200453"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/validator_network"
+          },
+          "buckets": {
+            "+Inf": "259538",
+            "0.001": "259538",
+            "0.004": "259538",
+            "0.016": "259538",
+            "0.064": "259538",
+            "0.256": "259538",
+            "1.024": "259538",
+            "16.384": "259538",
+            "4.096": "259538",
+            "65.536": "259538"
+          },
+          "count": "259538",
+          "sum": "8.897086996000034"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "import-queue"
+          },
+          "buckets": {
+            "+Inf": "7131142",
+            "0.001": "7131133",
+            "0.004": "7131141",
+            "0.016": "7131142",
+            "0.064": "7131142",
+            "0.256": "7131142",
+            "1.024": "7131142",
+            "16.384": "7131142",
+            "4.096": "7131142",
+            "65.536": "7131142"
+          },
+          "count": "7131142",
+          "sum": "55.96133354400347"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "informant"
+          },
+          "buckets": {
+            "+Inf": "8299065",
+            "0.001": "8299048",
+            "0.004": "8299065",
+            "0.016": "8299065",
+            "0.064": "8299065",
+            "0.256": "8299065",
+            "1.024": "8299065",
+            "16.384": "8299065",
+            "4.096": "8299065",
+            "65.536": "8299065"
+          },
+          "count": "8299065",
+          "sum": "296.03859743995196"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/clique_network_incoming"
+          },
+          "buckets": {
+            "+Inf": "510",
+            "0.001": "510",
+            "0.004": "510",
+            "0.016": "510",
+            "0.064": "510",
+            "0.256": "510",
+            "1.024": "510",
+            "16.384": "510",
+            "4.096": "510",
+            "65.536": "510"
+          },
+          "count": "510",
+          "sum": "0.010518102999999994"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/authentication_peer_sender"
+          },
+          "buckets": {
+            "+Inf": "115268617",
+            "0.001": "115268541",
+            "0.004": "115268616",
+            "0.016": "115268617",
+            "0.064": "115268617",
+            "0.256": "115268617",
+            "1.024": "115268617",
+            "16.384": "115268617",
+            "4.096": "115268617",
+            "65.536": "115268617"
+          },
+          "count": "115268617",
+          "sum": "551.1946360797891"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/sync_peer_sender"
+          },
+          "buckets": {
+            "+Inf": "148449390",
+            "0.001": "148445655",
+            "0.004": "148449316",
+            "0.016": "148449390",
+            "0.064": "148449390",
+            "0.256": "148449390",
+            "1.024": "148449390",
+            "16.384": "148449390",
+            "4.096": "148449390",
+            "65.536": "148449390"
+          },
+          "count": "148449390",
+          "sum": "3135.071504682662"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "prometheus-endpoint"
+          },
+          "buckets": {
+            "+Inf": "393",
+            "0.001": "393",
+            "0.004": "393",
+            "0.016": "393",
+            "0.064": "393",
+            "0.256": "393",
+            "1.024": "393",
+            "16.384": "393",
+            "4.096": "393",
+            "65.536": "393"
+          },
+          "count": "393",
+          "sum": "0.011986488"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry"
+          },
+          "buckets": {
+            "+Inf": "17362894",
+            "0.001": "17362855",
+            "0.004": "17362894",
+            "0.016": "17362894",
+            "0.064": "17362894",
+            "0.256": "17362894",
+            "1.024": "17362894",
+            "16.384": "17362894",
+            "4.096": "17362894",
+            "65.536": "17362894"
+          },
+          "count": "17362894",
+          "sum": "729.8799482144818"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry-periodic-send"
+          },
+          "buckets": {
+            "+Inf": "3111775",
+            "0.001": "3111772",
+            "0.004": "3111775",
+            "0.016": "3111775",
+            "0.064": "3111775",
+            "0.256": "3111775",
+            "1.024": "3111775",
+            "16.384": "3111775",
+            "4.096": "3111775",
+            "65.536": "3111775"
+          },
+          "count": "3111775",
+          "sum": "39.637994766998574"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry_hwbench"
+          },
+          "buckets": {
+            "+Inf": "286",
+            "0.001": "286",
+            "0.004": "286",
+            "0.016": "286",
+            "0.064": "286",
+            "0.256": "286",
+            "1.024": "286",
+            "16.384": "286",
+            "4.096": "286",
+            "65.536": "286"
+          },
+          "count": "286",
+          "sum": "0.0005898049999999998"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "unpin-worker"
+          },
+          "buckets": {
+            "+Inf": "9691039",
+            "0.001": "9691037",
+            "0.004": "9691039",
+            "0.016": "9691039",
+            "0.064": "9691039",
+            "0.256": "9691039",
+            "1.024": "9691039",
+            "16.384": "9691039",
+            "4.096": "9691039",
+            "65.536": "9691039"
+          },
+          "count": "9691039",
+          "sum": "22.682845290051745"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-fee-history"
+          },
+          "buckets": {
+            "+Inf": "5187608",
+            "0.001": "5187103",
+            "0.004": "5187607",
+            "0.016": "5187608",
+            "0.064": "5187608",
+            "0.256": "5187608",
+            "1.024": "5187608",
+            "16.384": "5187608",
+            "4.096": "5187608",
+            "65.536": "5187608"
+          },
+          "count": "5187608",
+          "sum": "1107.2510006240452"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-filter-pool"
+          },
+          "buckets": {
+            "+Inf": "5187608",
+            "0.001": "5187606",
+            "0.004": "5187608",
+            "0.016": "5187608",
+            "0.064": "5187608",
+            "0.256": "5187608",
+            "1.024": "5187608",
+            "16.384": "5187608",
+            "4.096": "5187608",
+            "65.536": "5187608"
+          },
+          "count": "5187608",
+          "sum": "24.4238414419853"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-mapping-sync"
+          },
+          "buckets": {
+            "+Inf": "7274240",
+            "0.001": "7044578",
+            "0.004": "7058177",
+            "0.016": "7273274",
+            "0.064": "7274240",
+            "0.256": "7274240",
+            "1.024": "7274240",
+            "16.384": "7274240",
+            "4.096": "7274240",
+            "65.536": "7274240"
+          },
+          "count": "7274240",
+          "sum": "3295.3433631088387"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "block-request-handler"
+          },
+          "buckets": {
+            "+Inf": "12881897",
+            "0.001": "12878063",
+            "0.004": "12881895",
+            "0.016": "12881897",
+            "0.064": "12881897",
+            "0.256": "12881897",
+            "1.024": "12881897",
+            "16.384": "12881897",
+            "4.096": "12881897",
+            "65.536": "12881897"
+          },
+          "count": "12881897",
+          "sum": "494.6274784349546"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "libp2p-node"
+          },
+          "buckets": {
+            "+Inf": "4003313487",
+            "0.001": "4001949586",
+            "0.004": "4003310178",
+            "0.016": "4003313484",
+            "0.064": "4003313487",
+            "0.256": "4003313487",
+            "1.024": "4003313487",
+            "16.384": "4003313487",
+            "4.096": "4003313487",
+            "65.536": "4003313487"
+          },
+          "count": "4003313487",
+          "sum": "382152.317312686"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "light-client-request-handler"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "5.6e-07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "network-transactions-handler"
+          },
+          "buckets": {
+            "+Inf": "396024728",
+            "0.001": "396024622",
+            "0.004": "396024728",
+            "0.016": "396024728",
+            "0.064": "396024728",
+            "0.256": "396024728",
+            "1.024": "396024728",
+            "16.384": "396024728",
+            "4.096": "396024728",
+            "65.536": "396024728"
+          },
+          "count": "396024728",
+          "sum": "1758.9566927485503"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "peer-store"
+          },
+          "buckets": {
+            "+Inf": "5186830",
+            "0.001": "5186822",
+            "0.004": "5186830",
+            "0.016": "5186830",
+            "0.064": "5186830",
+            "0.256": "5186830",
+            "1.024": "5186830",
+            "16.384": "5186830",
+            "4.096": "5186830",
+            "65.536": "5186830"
+          },
+          "count": "5186830",
+          "sum": "21.471530384000793"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "state-request-handler"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "8.1e-07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "system-rpc-handler"
+          },
+          "buckets": {
+            "+Inf": "419",
+            "0.001": "419",
+            "0.004": "419",
+            "0.016": "419",
+            "0.064": "419",
+            "0.256": "419",
+            "1.024": "419",
+            "16.384": "419",
+            "4.096": "419",
+            "65.536": "419"
+          },
+          "count": "419",
+          "sum": "0.002136032"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "rpc",
+            "task_name": "substrate-rpc-subscription"
+          },
+          "buckets": {
+            "+Inf": "47379",
+            "0.001": "47367",
+            "0.004": "47379",
+            "0.016": "47379",
+            "0.064": "47379",
+            "0.256": "47379",
+            "1.024": "47379",
+            "16.384": "47379",
+            "4.096": "47379",
+            "65.536": "47379"
+          },
+          "count": "47379",
+          "sum": "1.0584210500000053"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "on-transaction-imported"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "2.43e-06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-background"
+          },
+          "buckets": {
+            "+Inf": "31103579",
+            "0.001": "31103573",
+            "0.004": "31103579",
+            "0.016": "31103579",
+            "0.064": "31103579",
+            "0.256": "31103579",
+            "1.024": "31103579",
+            "16.384": "31103579",
+            "4.096": "31103579",
+            "65.536": "31103579"
+          },
+          "count": "31103579",
+          "sum": "175.17006883448346"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-notifications"
+          },
+          "buckets": {
+            "+Inf": "10009274",
+            "0.001": "10009263",
+            "0.004": "10009274",
+            "0.016": "10009274",
+            "0.064": "10009274",
+            "0.256": "10009274",
+            "1.024": "10009274",
+            "16.384": "10009274",
+            "4.096": "10009274",
+            "65.536": "10009274"
+          },
+          "count": "10009274",
+          "sum": "474.0623787745133"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "block-import",
+            "task_name": "basic-block-import-worker"
+          },
+          "buckets": {
+            "+Inf": "19926283",
+            "0.001": "14738659",
+            "0.004": "18999651",
+            "0.016": "19898551",
+            "0.064": "19926283",
+            "0.256": "19926283",
+            "1.024": "19926283",
+            "16.384": "19926283",
+            "4.096": "19926283",
+            "65.536": "19926283"
+          },
+          "count": "19926283",
+          "sum": "20274.96653530164"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "aura"
+          },
+          "buckets": {
+            "+Inf": "5495040",
+            "0.001": "5187474",
+            "0.004": "5493438",
+            "0.016": "5495040",
+            "0.064": "5495040",
+            "0.256": "5495040",
+            "1.024": "5495040",
+            "16.384": "5495040",
+            "4.096": "5495040",
+            "65.536": "5495040"
+          },
+          "count": "5495040",
+          "sum": "1782.478224868282"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "basic-authorship-proposer"
+          },
+          "buckets": {
+            "+Inf": "307401",
+            "0.001": "1",
+            "0.004": "300500",
+            "0.016": "307401",
+            "0.064": "307401",
+            "0.256": "307401",
+            "1.024": "307401",
+            "16.384": "307401",
+            "4.096": "307401",
+            "65.536": "307401"
+          },
+          "count": "307401",
+          "sum": "570.2896083369934"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "phron-finality"
+          },
+          "buckets": {
+            "+Inf": "5359763",
+            "0.001": "5359762",
+            "0.004": "5359762",
+            "0.016": "5359763",
+            "0.064": "5359763",
+            "0.256": "5359763",
+            "1.024": "5359763",
+            "16.384": "5359763",
+            "4.096": "5359763",
+            "65.536": "5359763"
+          },
+          "count": "5359763",
+          "sum": "64.77161839302354"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "syncing"
+          },
+          "buckets": {
+            "+Inf": "86873410",
+            "0.001": "86873357",
+            "0.004": "86873409",
+            "0.016": "86873410",
+            "0.064": "86873410",
+            "0.256": "86873410",
+            "1.024": "86873410",
+            "16.384": "86873410",
+            "4.096": "86873410",
+            "65.536": "86873410"
+          },
+          "count": "86873410",
+          "sum": "1595.566138383463"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "chain-sync-network-service-provider"
+          },
+          "buckets": {
+            "+Inf": "10071344",
+            "0.001": "10071344",
+            "0.004": "10071344",
+            "0.016": "10071344",
+            "0.064": "10071344",
+            "0.256": "10071344",
+            "1.024": "10071344",
+            "16.384": "10071344",
+            "4.096": "10071344",
+            "65.536": "10071344"
+          },
+          "count": "10071344",
+          "sum": "76.52965111500528"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "network-worker"
+          },
+          "buckets": {
+            "+Inf": "1107217438",
+            "0.001": "1106835242",
+            "0.004": "1107215380",
+            "0.016": "1107217436",
+            "0.064": "1107217438",
+            "0.256": "1107217438",
+            "1.024": "1107217438",
+            "16.384": "1107217438",
+            "4.096": "1107217438",
+            "65.536": "1107217438"
+          },
+          "count": "1107217438",
+          "sum": "54506.75445131452"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-0"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "4.73e-06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-1"
+          },
+          "buckets": {
+            "+Inf": "1",
+            "0.001": "1",
+            "0.004": "1",
+            "0.016": "1",
+            "0.064": "1",
+            "0.256": "1",
+            "1.024": "1",
+            "16.384": "1",
+            "4.096": "1",
+            "65.536": "1"
+          },
+          "count": "1",
+          "sum": "2.69e-06"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tokio_threads_alive",
+      "help": "Number of threads alive right now",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "name": "aleph_timing_finalized",
+      "help": "no help",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "150": "0",
+            "225": "0",
+            "+Inf": "0",
+            "1139.0625": "0",
+            "1708.59375": "0",
+            "29.62962962962963": "0",
+            "337.5": "0",
+            "44.44444444444444": "0",
+            "506.25": "0",
+            "66.66666666666666": "0",
+            "759.375": "0",
+            "99.99999999999999": "0"
+          },
+          "count": "0",
+          "sum": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_block_height",
+      "help": "Block height info of the chain",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "best"
+          },
+          "value": "5.378376e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "finalized"
+          },
+          "value": "5.378369e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "status": "sync_target"
+          },
+          "value": "5.378376e+06"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_listeners_local_addresses",
+      "help": "Number of local addresses we're listening on",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_validations_finished",
+      "help": "Total number of transactions that finished validation",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tasks_polling_started_total",
+      "help": "Total number of times we started invoking Future::poll",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "EthBlockDataCacheTask"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/connection_manager"
+          },
+          "value": "2.8281586e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/gossip_network"
+          },
+          "value": "3.02707166e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/sync"
+          },
+          "value": "9.9839625e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/updater"
+          },
+          "value": "4.736311e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "aleph/validator_network"
+          },
+          "value": "259538"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "import-queue"
+          },
+          "value": "7.131142e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "informant"
+          },
+          "value": "8.299065e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/clique_network_incoming"
+          },
+          "value": "510"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/authentication_peer_sender"
+          },
+          "value": "1.15268617e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "phron/network/sync_peer_sender"
+          },
+          "value": "1.4844939e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "prometheus-endpoint"
+          },
+          "value": "393"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry"
+          },
+          "value": "1.7362894e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry-periodic-send"
+          },
+          "value": "3.111775e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "telemetry_hwbench"
+          },
+          "value": "286"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "default",
+            "task_name": "unpin-worker"
+          },
+          "value": "9.691039e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-fee-history"
+          },
+          "value": "5.187608e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-filter-pool"
+          },
+          "value": "5.187608e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "frontier",
+            "task_name": "frontier-mapping-sync"
+          },
+          "value": "7.27424e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "block-request-handler"
+          },
+          "value": "1.2881897e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "libp2p-node"
+          },
+          "value": "4.003313487e+09"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "light-client-request-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "network-transactions-handler"
+          },
+          "value": "3.96024728e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "peer-store"
+          },
+          "value": "5.18683e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "state-request-handler"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "networking",
+            "task_name": "system-rpc-handler"
+          },
+          "value": "419"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "rpc",
+            "task_name": "substrate-rpc-subscription"
+          },
+          "value": "47379"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "on-transaction-imported"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-background"
+          },
+          "value": "3.1103579e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "async",
+            "task_group": "transaction-pool",
+            "task_name": "txpool-notifications"
+          },
+          "value": "1.0009274e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "block-import",
+            "task_name": "basic-block-import-worker"
+          },
+          "value": "1.9926283e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "aura"
+          },
+          "value": "5.49504e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "basic-authorship-proposer"
+          },
+          "value": "307401"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "phron-finality"
+          },
+          "value": "5.359763e+06"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "default",
+            "task_name": "syncing"
+          },
+          "value": "8.687341e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "chain-sync-network-service-provider"
+          },
+          "value": "1.0071344e+07"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "networking",
+            "task_name": "network-worker"
+          },
+          "value": "1.107217438e+09"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-0"
+          },
+          "value": "1"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "kind": "blocking",
+            "task_group": "transaction-pool",
+            "task_name": "transaction-pool-task-1"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_import_queue_processed_total",
+      "help": "Blocks processed by import queue",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "result": "success"
+          },
+          "value": "1.2836972e+07"
+        }
+      ]
+    },
+    {
+      "name": "substrate_storage_notification_subscribers",
+      "help": "Number of subscribers in storage notification sytem",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "action": "added",
+            "chain": "phron01"
+          },
+          "value": "435"
+        },
+        {
+          "labels": {
+            "action": "removed",
+            "chain": "phron01"
+          },
+          "value": "435"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_network_bytes_total",
+      "help": "Total bandwidth usage",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in"
+          },
+          "value": "2.62489052264e+11"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "out"
+          },
+          "value": "2.3693549277e+11"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_peers_count",
+      "help": "Number of connected peers",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "name": "substrate_rpc_sessions_closed",
+      "help": "Number of persistent RPC sessions closed",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_kademlia_records_count",
+      "help": "Number of records in the Kademlia records store",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_incoming_connections_total",
+      "help": "Total number of incoming connections on the listening sockets",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "4.77981029e+08"
+        }
+      ]
+    },
+    {
+      "name": "aleph_timing_ordered",
+      "help": "no help",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1000": "0",
+            "1500": "0",
+            "2250": "0",
+            "3375": "0",
+            "+Inf": "0",
+            "11390.625": "0",
+            "197.53086419753086": "0",
+            "296.2962962962963": "0",
+            "444.44444444444446": "0",
+            "5062.5": "0",
+            "666.6666666666667": "0",
+            "7593.75": "0"
+          },
+          "count": "0",
+          "sum": "0"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_blocks_cache_miss",
+      "help": "Misses of eth blocks_cache cache.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_tokio_threads_total",
+      "help": "Total number of threads created",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "274754"
+        }
+      ]
+    },
+    {
+      "name": "substrate_block_verification_and_import_time",
+      "help": "Time taken to verify and import blocks",
+      "type": "HISTOGRAM",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "buckets": {
+            "1": "5187622",
+            "5": "5187622",
+            "10": "5187622",
+            "+Inf": "5187622",
+            "0.005": "4310032",
+            "0.01": "4420736",
+            "0.025": "5187601",
+            "0.05": "5187622",
+            "0.1": "5187622",
+            "0.25": "5187622",
+            "0.5": "5187622",
+            "2.5": "5187622"
+          },
+          "count": "5187622",
+          "sum": "19902.04043130591"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_connections_opened_total",
+      "help": "Total number of connections opened by direction",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "in"
+          },
+          "value": "1.94774694e+08"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "direction": "out"
+          },
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "name": "substrate_ready_transactions_number",
+      "help": "Number of transactions in the ready queue",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_txpool_validations_scheduled",
+      "help": "Total number of transactions scheduled for validation",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_blocks_cache_size",
+      "help": "Size of eth blocks_cache data cache.",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_proposer_number_of_transactions",
+      "help": "Number of transactions included in block",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_kbuckets_num_nodes",
+      "help": "Number of nodes per kbucket per Kademlia instance",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01",
+            "lower_ilog2_bucket_bound": "253"
+          },
+          "value": "2"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "lower_ilog2_bucket_bound": "254"
+          },
+          "value": "5"
+        },
+        {
+          "labels": {
+            "chain": "phron01",
+            "lower_ilog2_bucket_bound": "255"
+          },
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "name": "substrate_sub_libp2p_out_events_notifications_sizes",
+      "help": "Size of notification events that have been sent or received across all channels",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "name": "phron-network",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "value": "3.0860520317e+10"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "name": "phron-network",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "value": "2.11572743907e+11"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "name": "transactions-handler-net",
+            "protocol": "/0x4dcc…ce71/auth/0"
+          },
+          "value": "3.0860520317e+10"
+        },
+        {
+          "labels": {
+            "action": "sent",
+            "chain": "phron01",
+            "name": "transactions-handler-net",
+            "protocol": "/0x4dcc…ce71/sync/0"
+          },
+          "value": "2.11572743907e+11"
+        }
+      ]
+    },
+    {
+      "name": "frontier_eth_blocks_cache_hits",
+      "help": "Hits of eth blocks_cache cache.",
+      "type": "COUNTER",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "substrate_number_leaves",
+      "help": "Number of known chain leaves (aka forks)",
+      "type": "GAUGE",
+      "metrics": [
+        {
+          "labels": {
+            "chain": "phron01"
+          },
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}
