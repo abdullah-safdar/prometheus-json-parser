@@ -1,5 +1,4 @@
 const Docker = require("dockerode");
-const { PROM_DATA_URL } = require("../config");
 
 const docker = new Docker({});
 
@@ -21,12 +20,12 @@ async function pullImage() {
   });
 }
 
-async function runContainer() {
+async function runContainer(url) {
   return new Promise((resolve, reject) => {
     let outputData = "";
     docker.run(
       "prom/prom2json",
-      [PROM_DATA_URL],
+      [url],
       process.stdout,
       { Tty: true, rm: true },
       (runErr, data, container) => {
